@@ -1,0 +1,26 @@
+{
+  "p1": {
+    "role": "You are a skilled programmer and have significant experience in code translation.",
+    "prompt": "{source_code} \n Translate the above {source_lang} code to {target_lang}. Print only the {target_lang} code, end with comment \"|End-of-Code|\"."},
+  "p2": {
+    "role": "You are a skilled programmer and have significant experience in code translation.",
+    "prompt": "Translate the following {source_lang} code to {target_lang}.\n```\n{source_code}\n```\nFirst, understand the given {source_lang} code thoroughly. Think about what the overall intended functionality is. Analyze carefully what the imported libraries do and how they work. Think about the datatypes, structures and classes used in the {source_lang} code and how they could correspond to {target_lang} code. Then, derive an action plan on how to translate the code and what libraries to use. Last, translate the code to Python given the original {source_lang} code and your analysis.\nOnly output the {target_lang} code."},
+  "p3": {
+    "role": "You are a skilled programmer and have significant experience in code translation.",
+    "prompt": "{source_code} \n Your task is to translate the above {source_lang} code to {target_lang}. You must only print the {target_lang} code. You must write correct code which is free of code smells. You will be penalized for any deviations."},
+  "p4": {
+    "role": "You are a skilled programmer and have significant experience in code translation.",
+    "prompt": " {source_code} \n Your task is to translate the above {source_lang} code to {target_lang}. You must only print the {target_lang} code. You must write correct code which is free of code smells. You will be penalized for any deviations. You conduct the code translation from {source_lang} to {target_lang} for a domain expert who will carefully check and assess your code for functionality and quality."},
+  "p5": {
+    "role": "You are a skilled programmer and have significant experience in code translation.",
+    "prompt": "###Instruction###\n\nYour task is to translate the provided {source_lang} code to {target_lang}. Think step by step to provide functionally correct code. You will be penalized for any code smells or bad programming behavior you exhibit.\n\n###Source {source_lang} code###\n\n{source_code}"},
+  "p6": {
+    "role": "You are a skilled programmer and have significant experience in code translation.",
+    "prompt": "{source_code} \n Your task is to translate the above {source_lang} code to {target_lang}. You must only print the {target_lang} code. You must write correct code which is free of code smells. You will be penalized for any deviations. You conduct the code translation from {source_lang} to {target_lang} for a domain expert who will carefully check and assess your code for functionality and quality."},
+  "p7": {
+    "role": "You are a skilled programmer and have significant experience in code translation.",
+    "prompt": "Translate {source_lang} code delimited by triple backticks into {target_lang} code: ```{source_code}```"},
+  "p8": {
+    "role": "You are a skilled programmer and have significant experience in code translation.",
+    "prompt": "**Prompt Template for Code Translation:** \n Title: Code Translation Request \n **Request:** I need assistance in translating a piece of code from the {source_lang} programming language to the {target_lang} programming language. The original code snippet is provided below. Please ensure the translated code maintains the same functionality and logic as the original.\n **Source Code ({source_lang}):** \n $```$ \n {source_code} \n $```$ \n **Target Language:** {target_lang} \n **Instructions for the Translator (LLM):** \n1. Ensure the translated code accurately reflects the functionality of the source code.\n2. Preserve naming conventions and comment styles appropriate to the {target_lang}.\n3. Include comments to explain any complex logic or necessary deviations from the source code structure due to language differences.\n4. Verify syntax and standard practices of {target_lang} are adhered to.\n5. Please provide any necessary explanations or assumptions made during translation as footnotes.\n **Output Requirement:** Please present the translated code in {target_lang}, including any necessary annotations or comments for clarity."}
+}

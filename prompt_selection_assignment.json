@@ -1,0 +1,273 @@
+{"mistralai/Mixtral-8x7B-Instruct-v0.1": {
+    "avatar": {
+      "python-java": "p5",
+      "java-python": "p7",
+      "java-rust": "p8",
+      "python-rust": "p1",
+      "java-scala": "p2",
+      "python-scala": "p7"
+    },
+    "codenet": {
+      "python-java": "p8",
+      "rust-java": "p1",
+      "scala-java": "p7",
+      "java-python": "p5",
+      "rust-python": "p8",
+      "scala-python": "p1",
+      "java-rust": "p1",
+      "python-rust": "p2",
+      "scala-rust": "p5",
+      "java-scala": "p7",
+      "python-scala": "p3",
+      "rust-scala": "p3"
+    },
+    "evalplus": {
+      "python-java": "p5",
+      "python-rust": "p2",
+      "python-scala": "p2"
+    },
+    "evoeval": {
+      "python-java": "p5",
+      "python-rust": "p8",
+      "python-scala": "p7"
+    }
+  },
+  "deepseek-ai/deepseek-coder-33b-instruct": {
+    "avatar": {
+      "python-java": "p6",
+      "java-python": "p1",
+      "java-rust": "p6",
+      "python-rust": "p3",
+      "java-scala": "p7",
+      "python-scala": "p3"
+    },
+    "codenet": {
+      "python-java": "p5",
+      "rust-java": "p1",
+      "scala-java": "p2",
+      "java-python": "p7",
+      "rust-python": "p3",
+      "scala-python": "p4",
+      "java-rust": "p4",
+      "python-rust": "p8",
+      "scala-rust": "p1",
+      "java-scala": "p2",
+      "python-scala": "p3",
+      "rust-scala": "p6"
+    },
+    "evalplus": {
+      "python-java": "p1",
+      "python-rust": "p3",
+      "python-scala": "p5"
+    },
+    "evoeval": {
+      "python-java": "p8",
+      "python-rust": "p7",
+      "python-scala": "p4"
+    }
+  },
+  "ibm-granite/granite-34b-code-instruct": {
+    "avatar": {
+      "python-java": "p2",
+      "java-python": "p2",
+      "java-rust": "p7",
+      "python-rust": "p5",
+      "java-scala": "p7",
+      "python-scala": "p8"
+    },
+    "codenet": {
+      "python-java": "p2",
+      "rust-java": "p2",
+      "scala-java": "p2",
+      "java-python": "p3",
+      "rust-python": "p2",
+      "scala-python": "p7",
+      "java-rust": "p5",
+      "python-rust": "p1",
+      "scala-rust": "p2",
+      "java-scala": "p7",
+      "python-scala": "p1",
+      "rust-scala": "p6"
+    },
+    "evalplus": {
+      "python-java": "p2",
+      "python-rust": "p8",
+      "python-scala": "p5"
+    },
+    "evoeval": {
+      "python-java": "p2",
+      "python-rust": "p5",
+      "python-scala": "p8"
+    }
+  },
+  "ise-uiuc/Magicoder-S-DS-6.7B": {
+    "avatar": {
+      "python-java": "p6",
+      "java-python": "p6",
+      "java-rust": "p1",
+      "python-rust": "p6",
+      "java-scala": "p7",
+      "python-scala": "p4"
+    },
+    "codenet": {
+      "python-java": "p5",
+      "rust-java": "p4",
+      "scala-java": "p5",
+      "java-python": "p7",
+      "rust-python": "p3",
+      "scala-python": "p3",
+      "java-rust": "p1",
+      "python-rust": "p7",
+      "scala-rust": "p1",
+      "java-scala": "p5",
+      "python-scala": "p4",
+      "rust-scala": "p1"
+    },
+    "evalplus": {
+      "python-java": "p5",
+      "python-rust": "p2",
+      "python-scala": "p8"
+    },
+    "evoeval": {
+      "python-java": "p7",
+      "python-rust": "p2",
+      "python-scala": "p5"
+    }
+  },
+  "meta-llama/CodeLlama-70b-Instruct-hf": {
+    "avatar": {
+      "python-java": "p7",
+      "java-python": "p6",
+      "java-rust": "p1",
+      "python-rust": "p3",
+      "java-scala": "p6",
+      "python-scala": "p1"
+    },
+    "codenet": {
+      "python-java": "p2",
+      "rust-java": "p4",
+      "scala-java": "p7",
+      "java-python": "p5",
+      "rust-python": "p4",
+      "scala-python": "p5",
+      "java-rust": "p7",
+      "python-rust": "p3",
+      "scala-rust": "p1",
+      "java-scala": "p7",
+      "python-scala": "p1",
+      "rust-scala": "p4"
+    },
+    "evalplus": {
+      "python-java": "p2",
+      "python-rust": "p5",
+      "python-scala": "p2"
+    },
+    "evoeval": {
+      "python-java": "p5",
+      "python-rust": "p6",
+      "python-scala": "p4"
+    }
+  },
+  "meta-llama/Meta-Llama-3-8B-Instruct": {
+    "avatar": {
+      "python-java": "p4",
+      "java-python": "p3",
+      "java-rust": "p1",
+      "python-rust": "p3",
+      "java-scala": "p8",
+      "python-scala": "p4"
+    },
+    "codenet": {
+      "python-java": "p3",
+      "rust-java": "p3",
+      "scala-java": "p4",
+      "java-python": "p5",
+      "rust-python": "p6",
+      "scala-python": "p3",
+      "java-rust": "p3",
+      "python-rust": "p8",
+      "scala-rust": "p5",
+      "java-scala": "p2",
+      "python-scala": "p5",
+      "rust-scala": "p2"
+    },
+    "evalplus": {
+      "python-java": "p6",
+      "python-rust": "p6",
+      "python-scala": "p5"
+    },
+    "evoeval": {
+      "python-java": "p4",
+      "python-rust": "p8",
+      "python-scala": "p2"
+    }
+  },
+  "meta-llama/Meta-Llama-3-70B-Instruct": {
+    "avatar": {
+      "python-java": "p4",
+      "java-python": "p3",
+      "java-rust": "p4",
+      "python-rust": "p3",
+      "java-scala": "p3",
+      "python-scala": "p6"
+    },
+    "codenet": {
+      "python-java": "p8",
+      "rust-java": "p4",
+      "scala-java": "p8",
+      "java-python": "p6",
+      "rust-python": "p4",
+      "scala-python": "p4",
+      "java-rust": "p2",
+      "python-rust": "p3",
+      "scala-rust": "p1",
+      "java-scala": "p3",
+      "python-scala": "p2",
+      "rust-scala": "p1"
+    },
+    "evalplus": {
+      "python-java": "p3",
+      "python-rust": "p3",
+      "python-scala": "p5"
+    },
+    "evoeval": {
+      "python-java": "p5",
+      "python-rust": "p2",
+      "python-scala": "p2"
+    }
+  },
+  "mistralai/Codestral-22B-v0.1": {
+    "avatar": {
+      "python-java": "p2",
+      "java-python": "p2",
+      "java-rust": "p6",
+      "python-rust": "p4",
+      "java-scala": "p6",
+      "python-scala": "p4"
+    },
+    "codenet": {
+      "python-java": "p7",
+      "rust-java": "p1",
+      "scala-java": "p4",
+      "java-python": "p7",
+      "rust-python": "p1",
+      "scala-python": "p6",
+      "java-rust": "p7",
+      "python-rust": "p6",
+      "scala-rust": "p3",
+      "java-scala": "p1",
+      "python-scala": "p3",
+      "rust-scala": "p1"
+    },
+    "evalplus": {
+      "python-java": "p7",
+      "python-rust": "p2",
+      "python-scala": "p3"
+    },
+    "evoeval": {
+      "python-java": "p7",
+      "python-rust": "p8",
+      "python-scala": "p7"
+    }
+  }
+}
