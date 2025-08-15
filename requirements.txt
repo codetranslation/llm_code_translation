@@ -1,0 +1,6 @@
+docker_py
+openai
+pandas
+tiktoken
+transformers
+vllm
